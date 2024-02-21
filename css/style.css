@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+body {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+    background-image: url('../img/imagen.jpg');
+    background-size: cover;
+    background-position: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 5px 5px rgba(255,255,255,0.5);
+}
+
+.body {
+    display: none;
+}
+
+.positions {
+    flex: 1 1 auto;
+}
+
+.right {
+    text-align: right;
+    margin-right: 50px;
+    
+}
+
+canvas#tetris {
+    border: solid .2em white;
+    border-radius: 5px;
+    height: 90vh;
+}
+
+.caja_lateral {
+    border: solid .2em white;
+    margin-bottom: 20px;
+    max-width: 200px;
+    background-color:black;
+}
+
+canvas#nextPiece {
+    width: 100%;
+}
+
+DIV.btn_group {
+    width: 100%;
+    max-width: 210px;
+    text-align: left;
+}
+
+Button.btn {
+    width: 100%;
+    font-size: 1em;
+    color: #666;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(to bottom,  #eeeeee 17%,#eeeeee 17%,#cccccc 58%); 
+
+}
+
+DIV.background_tetris {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+
+    
+}
+
+DIV.UI-Pause {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -150px;
+    padding: 25px;
+    background: linear-gradient(to bottom,  #e0f3fa 0%,#d8f0fc 15%,#b8e2f6 64%,#d8f0fc 87%,#b6dffd 100%); 
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 10px;
+    display: none;
+}
+
+DIV.tite_menu {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    color: #666;
+    text-shadow: 1px 1px white, -1px -1px #444;
+}
+
+DIV.btn_left {
+    float:left;
+    width:145px;
+    padding-right:5px;
+
+}
+
+DIV.btn_right {
+    float:right;
+    width:145px;
+    padding-left:5px;
+}
+
+DIV.UI-MainMenu {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    margin-left: -150px;
+    margin-top: -100px;
+
+}
+
+:root {
+    --color-1: red;
+    --color-2: blue;
+    --color-3: violet;
+    --color-4: green;
+    --color-5: purple;
+    --color-6: orange;
+    --color-7: pink;
+    
+  }
+
+
+
+  
